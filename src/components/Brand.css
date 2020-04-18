@@ -3,5 +3,17 @@
     border-bottom-color: black;
     border-bottom-style: inset;
     border-bottom-width: 1px;
-    border-bottom-color: #F1EDEC;
+    /* border-bottom-color: #242322; */
+
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+}
+
+img {
+    width: 10%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: inline-block;
 }

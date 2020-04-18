@@ -5,7 +5,7 @@ class Brand extends Component {
     render() {
         return (
             <div className='BrandDiv'>
-                <h3>Project F (logo)</h3> 
+                <img src='/assets/bastion_inverted.png' alt=''/>
             </div>
         )
     }

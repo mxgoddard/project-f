@@ -10,11 +10,10 @@ class NavBar extends Component {
     render() {
         return (
             <div className='topNavDiv'>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#products">Products</a>
-                <a href="#contact">Contact</a>
-                <a href="#wip">Work in progress ...</a>
+                <a href="#home" className='headerSection'>Home</a>
+                <a href="#about" className='headerSection'>About</a>
+                <a href="#products" className='headerSection'>Products</a>
+                <a href="#contact" className='headerSection'>Contact</a>
             </div>
         )
     }
