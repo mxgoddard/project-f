@@ -9,7 +9,7 @@ class NavBar extends Component {
 
     render() {
         return (
-            <div className='topNav'>
+            <div className='topNavDiv'>
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#products">Products</a>

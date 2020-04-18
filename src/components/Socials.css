@@ -1,0 +1,10 @@
+.SocialsDiv {
+    border-bottom-color: black;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-bottom-color: #F1EDEC;
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

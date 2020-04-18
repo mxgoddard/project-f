@@ -1,17 +1,3 @@
-.topNav {
-    overflow: hidden;
-    margin: 0;
-    padding-top: 15px;
-    text-align: center;
-    padding-bottom: 15px;
-    /* background-color: #F1EDEC; */
-    border-bottom-color: black;
-    border-bottom-style: inset;
-    border-bottom-width: 1px;
-    border-bottom-color: #F1EDEC;
-}
-
-/* Style the links inside the navigation bar */
 a {
     display: inline;
     color: #5A5554;
@@ -22,8 +8,19 @@ a {
     font-family: 'Roboto Mono', monospace;
 }
 
-/* Change the color of links on hover */
-.topNav a:hover {
+.topNavDiv {
+    overflow: hidden;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom-color: black;
+    border-bottom-style: inset;
+    border-bottom-width: 1px;
+    border-bottom-color: #F1EDEC;
+}
+
+.topNavDiv a:hover {
     color: black;
     text-decoration: underline;
 }
