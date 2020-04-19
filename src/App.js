@@ -9,6 +9,7 @@ import CarouselComponent from './components/CarouselComponent.jsx';
 import MailingList from './components/MailingList.jsx';
 import Socials from './components/Socials.jsx';
 import Footer from './components/Footer.jsx';
+import Copyright from './components/Copyright.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <MailingList />
         <Socials />
         <Footer />
+        <Copyright />
     </div>
   );
 }
