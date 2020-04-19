@@ -4,8 +4,16 @@ import './MailingList.css';
 class MailingList extends Component {
     render() {
         return (
-            <div className='MailingListDiv'>
-                <h3>MailingList</h3>
+            <div className='MailingListOuterWrapper'>
+                <div className='MailingListDiv'>
+                    <form>
+                        <label>
+                            NEWSLETTER:
+                        </label>
+                        <input type='text' name='name' placeholder='Enter email address' />
+                        <input type='submit' value='SIGN UP NOW' />
+                    </form>
+                </div>
             </div>
         )
     }
