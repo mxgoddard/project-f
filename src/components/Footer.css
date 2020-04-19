@@ -14,10 +14,13 @@
     /* padding-bottom: 30px; */
     background-color: #f0f0f0;
     color: black;
-    margin: 20px;
 
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
+
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .TempList {

@@ -7,11 +7,14 @@ class CarouselComponent extends Component {
         return (
             <div className='CarouselComponentDiv'>
                 <Carousel autoplay={true} stopOnHover={false} showStatus={false} showThumbs={false} infiteLoop={true} emulateTouch={true} dynamicHeight={true}>
-                    <div>
-                        <img src='assets/temp1.jpg' alt='' />
+                    <div className='CarouselImg'>
+                        <img src='assets/gloves_test2.jpg' alt='' />
                     </div>
                     <div>
-                        <img src='assets/temp2.jpg' alt='' />
+                        <img src='assets/gloves2_test1.jpg' alt='' />
+                    </div>
+                    <div>
+                        <img src='assets/monty_compressed.jpg' alt='' />
                     </div>
                 </Carousel>
             </div>
