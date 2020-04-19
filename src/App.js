@@ -10,6 +10,7 @@ import MailingList from './components/MailingList.jsx';
 import Socials from './components/Socials.jsx';
 import Footer from './components/Footer.jsx';
 import Copyright from './components/Copyright.jsx';
+import Categories from './components/Categories.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Brand />
         <NavBar />
         <CarouselComponent />
+        <Categories />
         <MailingList />
         <Socials />
         <Footer />
