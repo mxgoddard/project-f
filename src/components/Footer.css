@@ -1,12 +1,50 @@
-.FooterDiv {
+.FooterOuterWrapper {
     border-bottom-color: black;
     border-bottom-style: inset;
     border-bottom-width: 1px;
     border-bottom-color: #F1EDEC;
 
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 300px;
 
+}
+
+.FooterDiv {
+    text-align: center;
+    padding: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 30px; */
+    background-color: #f0f0f0;
+    color: black;
+    margin: 20px;
+
+    font-size: 14px;
     font-family: 'Roboto Mono', monospace;
+}
+
+.TempList {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.TempList li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.TempList a {
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.TempList a:hover {
+    color: grey;
+    /* text-decoration: underline; */
+}
+
+.ListTitle {
+    /* font-size: 14px; */
+    padding-bottom: 10px;
+    font-weight: bolder;
 }
