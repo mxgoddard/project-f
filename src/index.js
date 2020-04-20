@@ -1,3 +1,5 @@
+// Written by Max Goddard
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

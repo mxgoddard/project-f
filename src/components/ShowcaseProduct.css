@@ -1,0 +1,54 @@
+.ShowcaseProductOuterWrapper {
+    display: inline-block;
+}
+
+.ShowcaseProductDiv {
+    color: black;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+.ShowcaseText {
+    text-align: left;
+    display: block;
+}
+
+.ShowcaseTextName {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-weight: bolder;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.ShowcaseTextRest {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.ShowcaseImg {
+    width: 360px;
+    height: auto;
+    opacity: 0.8;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.ShowcaseProductDiv:hover > .ShowcaseImg {
+    opacity: 1;
+    transform: scale(1.02);
+    transform-origin: 50% 50%;
+}
+
+.ShowcaseImg:hover {
+    /* opacity: 1;
+    transform: scale(1.02);
+    transform-origin: 50% 50%; */
+}
