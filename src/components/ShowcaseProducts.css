@@ -5,6 +5,7 @@
     border-bottom-color: #F1EDEC;
 
     margin-top: 40px;
+    text-align: center;
 }
 
 .ShowcaseProductsDiv {
@@ -21,11 +22,13 @@
     margin-top: 0px;
     margin-left: 120px;
     margin-right: 120px;
+
+    /* background-color: #f0f0f0; */
 }
 
 .ShowcaseProductCaption {
     text-align: left;
-    padding-left: 7.5%;
+    padding-left: 10%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;

@@ -5,7 +5,7 @@
 .ShowcaseProductDiv {
     color: black;
     display: inline-block;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
 }
 
 .ShowcaseText {
@@ -19,7 +19,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
 
-    font-weight: bolder;
+    /* font-weight: bolder; */
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -29,6 +29,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
 
+    color: #383838;
     /* font-family: 'Roboto', sans-serif; */
 }
 
