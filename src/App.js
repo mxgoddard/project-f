@@ -6,8 +6,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 // Components
 import Brand from './components/Brand.jsx';
+import Copyright from './components/Copyright.jsx';
+import Footer from './components/Footer.jsx';
 import Home from './components/Home.jsx';
 import NavBar from './components/NavBar.jsx';
+import Product from './components/Product.jsx';
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
         <NavBar />
         <Router primary={false}>
             <Home path='/' />
+            <Product path='/item/:itemId' />
         </Router>
+        <Footer />
+        <Copyright />
     </div>
   );
 }

@@ -5,7 +5,7 @@ class ShowcaseProduct extends Component {
     render() {
         return (
             <div className='ShowcaseProductOuterWrapper'>
-                <a href="#blue-gloves">
+                <a href='/item/1'>
                     <div className='ShowcaseProductDiv'>
                         <img src={ this.state.imageLink } className='ShowcaseImg' alt='' />
                         <div className='ShowcaseText'>
@@ -27,6 +27,7 @@ class ShowcaseProduct extends Component {
     }
 
     state = {
+        id: -1,
         name: '',
         description: '',
         price: '',
@@ -36,6 +37,7 @@ class ShowcaseProduct extends Component {
     componentDidMount() {
         // OR componentWillMount ???
         this.setState({
+            id: this.props.product.id,
             name: this.props.product.name,
             description: this.props.product.description,
             price: this.props.product.price,
