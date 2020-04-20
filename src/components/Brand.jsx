@@ -6,7 +6,7 @@ class Brand extends Component {
         return (
 
             <div className='BrandDiv'>
-                <a href="#home">
+                <a href="/">
                     <img src='/assets/bastion_inverted.png' alt=''/>
                 </a>
             </div>

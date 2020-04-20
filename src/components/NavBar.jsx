@@ -10,7 +10,7 @@ class NavBar extends Component {
     render() {
         return (
             <div className='topNavDiv'>
-                <a href="#home" className='headerSection'>Home</a>
+                <a href="/" className='headerSection'>Home</a>
                 <a href="#about" className='headerSection'>About</a>
                 <a href="#products" className='headerSection'>Products</a>
                 <a href="#contact" className='headerSection'>Contact</a>
