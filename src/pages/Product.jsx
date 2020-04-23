@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import ProductImages from '../components/ProductImages.jsx';
 
 class Product extends Component {
     render() {
         return (
             <>
-                <h3>This is a product</h3>
+                <ProductImages />
             </>
         )
+    }
+
+    componentDidMount() {
+        // Make API request for product data
     }
 }
 

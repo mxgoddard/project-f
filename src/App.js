@@ -8,9 +8,9 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Brand from './components/Brand.jsx';
 import Copyright from './components/Copyright.jsx';
 import Footer from './components/Footer.jsx';
-import Home from './components/Home.jsx';
+import Home from './pages/Home.jsx';
 import NavBar from './components/NavBar.jsx';
-import Product from './components/Product.jsx';
+import Product from './pages/Product.jsx';
 
 function App() {
   return (

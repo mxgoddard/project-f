@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from "@reach/router";
 import './ShowcaseProduct.css';
 
 class ShowcaseProduct extends Component {
     render() {
         return (
             <div className='ShowcaseProductOuterWrapper'>
-                <a href='/item/1'>
+                <Link to={`item/${ this.state.id }`}>
                     <div className='ShowcaseProductDiv'>
                         <img src={ this.state.imageLink } className='ShowcaseImg' alt='' />
                         <div className='ShowcaseText'>
@@ -21,7 +22,7 @@ class ShowcaseProduct extends Component {
                             </p>
                         </div>
                     </div>
-                </a>
+                </Link>
             </div>
         )
     }

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import CarouselComponent from './CarouselComponent.jsx';
-import MailingList from './MailingList.jsx';
-import ShowcaseProducts from './ShowcaseProducts.jsx';
-import Socials from './Socials.jsx';
+import CarouselComponent from '../components/CarouselComponent.jsx';
+import MailingList from '../components/MailingList.jsx';
+import ShowcaseProducts from '../components/ShowcaseProducts.jsx';
+import Socials from '../components/Socials.jsx';
 
 class Home extends Component {
     render() {
