@@ -7,7 +7,7 @@ class Footer extends Component {
             <div className='FooterOuterWrapper'>
                 <div className='FooterDiv'>
                     <ul className='TempList'>
-                        <li className='ListTitle'>Customer Services</li>
+                        <li className='ListTitle'>Customer Service</li>
                         <li>
                             <a href="#faq">
                                 FAQ's

@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import ProductImages from '../components/ProductImages.jsx';
+import ProductDisplay from '../components/ProductDisplay.jsx';
 
 class Product extends Component {
     render() {
         return (
             <>
-                <ProductImages />
+                <ProductDisplay id={ this.props.itemId }/>
             </>
         )
     }
 
     componentDidMount() {
-        // Make API request for product data
+        // Make API request for product data? Or make it in the display component?
+        console.log(this.props);
     }
 }
 
