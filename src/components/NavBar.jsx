@@ -11,7 +11,7 @@ class NavBar extends Component {
         return (
             <div className='topNavDiv'>
                 <a href="/" className='headerSection'>Home</a>
-                <a href="#about" className='headerSection'>About</a>
+                <a href="/about" className='headerSection'>About</a>
                 <a href="#products" className='headerSection'>Products</a>
                 <a href="#contact" className='headerSection'>Contact</a>
             </div>
