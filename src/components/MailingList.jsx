@@ -10,7 +10,7 @@ class MailingList extends Component {
                         <label>
                             NEWSLETTER:
                         </label>
-                        <input type='text' name='name' placeholder='Enter email address' />
+                        <input type='text' placeholder='Enter email address' />
                         <input type='submit' value='SIGN UP NOW' />
                     </form>
                 </div>

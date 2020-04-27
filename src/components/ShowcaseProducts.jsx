@@ -6,7 +6,7 @@ class ShowcaseProducts extends Component {
     render() {
         return (
             <div className='ShowcaseProductsOuterWrapper'>
-                <h3 className='ShowcaseProductCaption'>Showcase</h3>
+                <h3 className='ShowcaseProductCaption'>Goalkeeper Gloves Showcase</h3>
                 <div className='ShowcaseProductsDiv'>
                     <ShowcaseProduct product={ this.state.products[0] } />
                     <ShowcaseProduct product={ this.state.products[1] } />

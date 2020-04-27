@@ -14,6 +14,7 @@ import Brand from './components/Brand.jsx';
 import Copyright from './components/Copyright.jsx';
 import Footer from './components/Footer.jsx';
 import NavBar from './components/NavBar.jsx';
+import Socials from './components/Socials.jsx';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Product path='/item/:itemId' />
             <About path='/about' />
         </Router>
+        <Socials />
         <Footer />
         <Copyright />
     </div>
