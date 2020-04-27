@@ -62,6 +62,7 @@ class ProductDisplay extends Component {
     }
 
     componentDidMount() {
+        // Stubbed data until actual API request is created
         let products =
         [
             {
