@@ -6,7 +6,7 @@ class Copyright extends Component {
         return (
             <div className='CopyrightOuterWrapper'>
                 <div className='CopyrightDiv'>
-                    <p>© 2020 Bastion</p>
+                    <p>© 2020 Vertex</p>
                 </div>
             </div>
         )

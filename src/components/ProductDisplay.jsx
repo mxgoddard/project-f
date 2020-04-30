@@ -27,7 +27,7 @@ class ProductDisplay extends Component {
                         <p className='NameOfProduct'>{ this.state.name } | £{ this.state.price }</p>
                         <p className='ProductDescription'>{ this.state.description }</p>
                         <div className='ProductInformation'>
-                            <p>Product Information</p>
+                            <p>Product Features</p>
                             <ul className='ProductInformationList'>
                                 { this.state.productInformation.split(',').map(el => {
                                     return (

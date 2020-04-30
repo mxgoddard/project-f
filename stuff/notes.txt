@@ -1,5 +1,3 @@
-
-
 Carousel images: 1920x600
 2400x2400
 Clicking on carousel throws error, doesn't automatically cycle because children of the carousel have not been initialized yet

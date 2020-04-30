@@ -8,6 +8,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import About from './pages/About.jsx';
 import Home from './pages/Home.jsx';
 import Product from './pages/Product.jsx';
+import Products from './pages/Products.jsx';
 
 // Components
 import Brand from './components/Brand.jsx';
@@ -23,8 +24,9 @@ function App() {
         <NavBar />
         <Router primary={false}>
             <Home path='/' />
-            <Product path='/item/:itemId' />
             <About path='/about' />
+            <Products path='/products' />
+            <Product path='/item/:itemId' />
         </Router>
         <Socials />
         <Footer />
