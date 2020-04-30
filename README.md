@@ -1,3 +1,5 @@
 # Project F
 
-### Description tbd
+Mock eCommerce site for React practice.
+
+Will integrate C# back-end.
