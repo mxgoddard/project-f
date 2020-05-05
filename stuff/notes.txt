@@ -1,3 +1,16 @@
+
+
 Carousel images: 1920x600
 2400x2400
 Clicking on carousel throws error, doesn't automatically cycle because children of the carousel have not been initialized yet
+
+External Research:
+
+"Loading in huge, oversized images that we scale down using width and height HTML attributes when we want more space for text content on smaller browsing devices is not a
+good practice for faster web page load times."
+Load in images at the maximum required size and nothing more.
+
+xxx this isn't related directly to your problem, but it will massively affect your conversion rate: the site has a real issue with speed.
+On mobile (where most of your customers are I imagine) it took over 30 seconds to get to a useable point. Google found that over 50% of users leave a site if it takes more than 3 seconds and
+the BBC found for every added second it lost 10% of users.
+I'm surprised you are getting any sales at all tbh. It is crazy heavy. Take a look at this for more info: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fproperfitness.co%2F
