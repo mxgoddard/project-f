@@ -2,24 +2,14 @@
     overflow: hidden;
     margin: 0;
     text-align: center;
-    /* border-bottom-color: black;
-    border-bottom-style: inset;
-    border-bottom-width: 1px;
-    border-bottom-color: #F1EDEC; */
     background-color: black;
-
-    /* position: fixed;
-    top:0;
-    width:100%;
-    z-index:100; */
-    /* margin-top: 5%; */ 
 }
 
 .headerSection {
     display: inline-block;
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     padding-top: 11px;
     padding-bottom: 11px;
@@ -29,11 +19,39 @@
 a {
     display: inline;
     color: white;
-    padding-left: 14px;
-    padding-right: 14px;
-    text-decoration: none;
-    font-size: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
     font-family: 'Roboto Mono', monospace;
+}
+
+@media (min-width:641px)  {
+    .headerSection {
+        font-size: 18px;
+    }
+    a {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+@media (min-width:1025px) {
+    .headerSection {
+        font-size: 18px;
+    }
+    a {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
+@media (min-width:1281px) {
+    .headerSection {
+        font-size: 17px;
+    }
+    a {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
 }
 
 .headerSection:hover {
