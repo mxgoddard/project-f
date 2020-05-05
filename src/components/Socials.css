@@ -5,21 +5,58 @@
     border-bottom-color: #F1EDEC;
 }
 
+/* Mobile */
 .SocialsDiv {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 4%;
+    padding-bottom: 4%;
     background-color: #f0f0f0;
     color: black;
-    margin: 10px;
-    margin-left: 120px;
-    margin-right: 120px;
 
     font-family: 'Roboto Mono', monospace;
 }
 
 .socialMediaLogo {
-    width: 48px;
+    width: 10%;
     height: auto;
-    margin: 0px 20px 0px 20px;
+    margin: 0;
+    margin: 0 2% 0 2%;
+}
+
+
+/* Tablet */
+@media (min-width:641px)  {
+    .SocialsDiv {
+        margin: 10px;
+    }
+    .socialMediaLogo {
+        width: 8%;
+    }
+}
+
+/* Desktops */
+@media (min-width:1024px) {
+    .SocialsDiv {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .socialMediaLogo {
+        width: 6%;
+    }
+}
+
+/* Large Desktops */
+@media (min-width:1281px) {
+    .SocialsDiv {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0.5%;
+        margin-left: 6%;
+        margin-right: 6%
+    }
+
+    .socialMediaLogo {
+        width: 48px;
+        margin: 0px 20px 0px 20px;
+    }
 }

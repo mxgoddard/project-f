@@ -44,6 +44,7 @@ function App() {
     <div className="AppDiv">
         <Brand />
         <NavBar />
+        <Socials />
     </div>
   );
 }

@@ -34,6 +34,17 @@ a {
     }
 }
 
+/* iPad Pro */
+@media (min-width: 961px) {
+    .headerSection {
+        font-size: 26px;
+    }
+    a {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+}
+
 @media (min-width:1025px) {
     .headerSection {
         font-size: 18px;
