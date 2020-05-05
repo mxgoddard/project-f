@@ -24,9 +24,9 @@
 }
 
 /* Desktops */
-@media (min-width:1025px) {
+@media (min-width:1024px) {
     .brandImage {
-        width: 18%;
+        width: 26%;
         height: auto;
     }
 }

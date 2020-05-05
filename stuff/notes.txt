@@ -1,5 +1,6 @@
 RWD (responsive web design)
 Width: https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile
+Change width by 1025 to 1024 to account for iPad Pro
 
 Carousel images: 1920x600
 2400x2400

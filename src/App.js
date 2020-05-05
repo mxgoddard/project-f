@@ -45,6 +45,7 @@ function App() {
         <Brand />
         <NavBar />
         <Socials />
+        <Footer />
     </div>
   );
 }
