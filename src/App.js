@@ -17,6 +17,8 @@ import Footer from './components/Footer.jsx';
 import NavBar from './components/NavBar.jsx';
 import Socials from './components/Socials.jsx';
 
+/*
+
 function App() {
   return (
     <div className="AppDiv">
@@ -31,6 +33,17 @@ function App() {
         <Socials />
         <Footer />
         <Copyright />
+    </div>
+  );
+}
+
+*/
+
+function App() {
+  return (
+    <div className="AppDiv">
+        <Brand />
+        <NavBar />
     </div>
   );
 }

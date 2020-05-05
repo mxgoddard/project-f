@@ -3,25 +3,37 @@
     border-bottom-color: black;
     border-bottom-style: inset;
     border-bottom-width: 1px;
-    /* border-bottom-color: #242322; */
-
     background-color: black;
-
-    /* position: fixed;
-    top:0;
-    width:100%;
-    z-index:100; */
-
-    /* position:fixed;
-    top:0;
-    width:100%;
-    z-index:100; */
 }
 
-.BrandDiv img {
-    /* max-width: 10%; */
+/* Mobile */
+.brandImage {
+    width: 40%;
     height: auto;
     padding-top: 10px;
     padding-bottom: 0px;
     display: inline-block;
+}
+
+/* Tablet */
+@media (min-width:641px)  {
+    .brandImage {
+        width: 25%;
+        height: auto;
+    }
+}
+
+/* Desktops */
+@media (min-width:1025px) {
+    .brandImage {
+        width: 12%;
+        height: auto;
+    }
+}
+
+@media (min-width:1281px) {
+    .brandImage {
+        width: 10%;
+        height: auto;
+    }
 }

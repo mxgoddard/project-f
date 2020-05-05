@@ -1,4 +1,5 @@
-
+RWD (responsive web design)
+Width: https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile
 
 Carousel images: 1920x600
 2400x2400
