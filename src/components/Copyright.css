@@ -2,8 +2,8 @@
     border-bottom-color: black;
     border-bottom-style: inset;
     border-bottom-width: 1px;
-    /* border-bottom-color: #F1EDEC; */
-    border-bottom-color: red;
+    border-bottom-color: #F1EDEC;
+    /* border-bottom-color: red; */
 }
 
 /* Mobile */
@@ -15,10 +15,6 @@
 
     background-color: #f0f0f0;
     color: black;
-
-    /* margin-top: 10px;
-    margin-left: 120px;
-    margin-right: 120px; */
 
     text-align: center;
     font-size: 14px;
@@ -46,7 +42,6 @@
         margin-top: 0.5%;
         margin-left: 6%;
         margin-right: 6%;
-
         font-size: 14px;
     }
 }

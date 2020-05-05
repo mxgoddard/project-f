@@ -14,6 +14,7 @@ import Products from './pages/Products.jsx';
 import Brand from './components/Brand.jsx';
 import Copyright from './components/Copyright.jsx';
 import Footer from './components/Footer.jsx';
+import MailingList from './components/MailingList.jsx';
 import NavBar from './components/NavBar.jsx';
 import Socials from './components/Socials.jsx';
 
@@ -44,6 +45,7 @@ function App() {
     <div className="AppDiv">
         <Brand />
         <NavBar />
+        <MailingList />
         <Socials />
         <Footer />
         <Copyright />

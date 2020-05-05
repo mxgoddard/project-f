@@ -2,32 +2,25 @@
     border-bottom-color: black;
     border-bottom-style: inset;
     border-bottom-width: 1px;
-    /* border-bottom-color: #F1EDEC; */
-    border-bottom-color: red;
+    border-bottom-color: #F1EDEC;
+    /* border-bottom-color: red; */
 }
 
 /* Mobile */
 .FooterDiv {
     text-align: center;
     padding: 2%;
-    /* padding-top: 10px; */
-    /* padding-bottom: 30px; */
+
     background-color: #f0f0f0;
     color: black;
 
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
-
-    /* margin: 10px;
-    margin-left: 120px;
-    margin-right: 120px; */
 }
 
 .TempList {
     list-style-type: none;
     display: inline;
-    /* margin-left: 2px;
-    margin-right: 2px; */
     margin: 0px;
     padding: 0px;
 }
@@ -39,19 +32,15 @@
 
 .TempList a {
     color: black;
-    /* font-size: 14px; */
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
 }
 
 .TempList a:hover {
     color: grey;
-    /* text-decoration: underline; */
 }
 
 .ListTitle {
-    /* font-size: 14px; */
-    /* padding-bottom: 10px; */
     font-weight: bolder;
 }
 
@@ -85,9 +74,6 @@
 @media (min-width:1281px) {
     .FooterDiv {
         padding: 10px;
-        /* padding-top: 10px; */
-        /* padding-bottom: 30px; */
-
         font-size: 14px;
 
         margin: 0.5%;
@@ -110,7 +96,6 @@
     }
 
     .ListTitle {
-        /* font-size: 14px; */
         padding-bottom: 10px;
     }
 }
