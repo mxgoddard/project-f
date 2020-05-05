@@ -46,6 +46,7 @@ function App() {
         <NavBar />
         <Socials />
         <Footer />
+        <Copyright />
     </div>
   );
 }
