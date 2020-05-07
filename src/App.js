@@ -18,8 +18,6 @@ import MailingList from './components/MailingList.jsx';
 import NavBar from './components/NavBar.jsx';
 import Socials from './components/Socials.jsx';
 
-/*
-
 function App() {
   return (
     <div className="AppDiv">
@@ -30,23 +28,6 @@ function App() {
             <About path='/about' />
             <Products path='/products' />
             <Product path='/item/:itemId' />
-        </Router>
-        <Socials />
-        <Footer />
-        <Copyright />
-    </div>
-  );
-}
-
-*/
-
-function App() {
-  return (
-    <div className="AppDiv">
-        <Brand />
-        <NavBar />
-        <Router primary={false}>
-            <Home path='/' />
         </Router>
         <MailingList />
         <Socials />
