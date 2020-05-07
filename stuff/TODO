@@ -1,20 +1,25 @@
-- Make an about page                    [x]
+- Make an about page                            [x]
     - What goes in the about us page?
     - Who we are?
     - Why we want to do this?
     - Business process
-- Fill in about page with real answers  [ ]
-- Make products page                    [ ]
-- Make product page less tacky          [ ]
+- Fill in about page with real answers          [ ]
+- Make products page                            [ ]
+- Make product page less tacky                  [ ]
 
-- Update branding to Vertex             [ ]
-    - Update copyright                  [x]
-    - Create Vertex logo                [ ]
-        - Install Photoshop             [x]
-        - Create logo files             [ ]
+- Update branding to Vertex                     [ ]
+    - Update copyright                          [x]
+    - Create Vertex logo                        [ ]
+        - Install Photoshop                     [x]
+        - Create logo files                     [ ]
 
-- Responsive Website                    [ ]
-    - Read basics of web responsiveness [ ]
-    - Implement the web design          [ ]
-        - Improve homepage              [ ]
-            - Sketch Website            [ ]
+- Responsive Website                            [ ]
+    - Read basics of web responsiveness         [x]
+    - Implement the web design                  [ ]
+        - Improve homepage                      [ ]
+            - Sketch Website                    [ ]
+
+- Remove sample photo backgrounds               [ ]
+    - Photoshop to white backgrounds            [ ]
+
+- Change carousel to standlone image on mobile  [ ]

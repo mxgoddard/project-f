@@ -6,6 +6,8 @@ Carousel images: 1920x600
 2400x2400
 Clicking on carousel throws error, doesn't automatically cycle because children of the carousel have not been initialized yet
 
+Background colour: #F1EDEC
+
 External Research:
 
 "Loading in huge, oversized images that we scale down using width and height HTML attributes when we want more space for text content on smaller browsing devices is not a

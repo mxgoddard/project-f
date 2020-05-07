@@ -6,7 +6,7 @@ class ShowcaseProduct extends Component {
     render() {
         return (
             <div className='ShowcaseProductOuterWrapper'>
-                <Link to={`item/${ this.state.id }`}>
+                <Link className='LinkClass' to={`item/${ this.state.id }`}>
                     <div className='ShowcaseProductDiv'>
                         <img src={ this.state.imageLink } className='ShowcaseImg' alt='' />
                         <div className='ShowcaseText'>
@@ -17,7 +17,7 @@ class ShowcaseProduct extends Component {
                             <p className='ShowcaseTextRest'>
                                 { this.state.description }
                             </p>
-                            <p className='ShowcaseTextRest'>
+                            <p className='ShowcaseTextPrice'>
                                 £{ this.state.price }
                             </p>
                         </div>
@@ -48,3 +48,18 @@ class ShowcaseProduct extends Component {
 }
 
 export default ShowcaseProduct;
+
+/*
+<div className='ShowcaseText'>
+    <p className='ShowcaseTextName'>
+        { this.state.name }
+
+    </p>
+    <p className='ShowcaseTextRest'>
+        { this.state.description }
+    </p>
+    <p className='ShowcaseTextRest'>
+        £{ this.state.price }
+    </p>
+</div>
+*/

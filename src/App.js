@@ -45,6 +45,9 @@ function App() {
     <div className="AppDiv">
         <Brand />
         <NavBar />
+        <Router primary={false}>
+            <Home path='/' />
+        </Router>
         <MailingList />
         <Socials />
         <Footer />
