@@ -6,8 +6,6 @@ Mock eCommerce site for React practice.
 
 Will integrate C# back-end.
 
-Not very (at all) responsive yet :(
-
 ### Setup
 
 1. Need Node installed
