@@ -3,7 +3,6 @@
     border-bottom-style: inset;
     border-bottom-width: 1px;
     border-bottom-color: #F1EDEC;
-    /* border-bottom-color: red; */
 }
 
 /* Mobile */
@@ -12,8 +11,6 @@
     padding-top: 4%;
     padding-bottom: 4%;
     background-color: #f0f0f0;
-    color: black;
-
     font-family: 'Roboto Mono', monospace;
 }
 

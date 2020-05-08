@@ -1,3 +1,34 @@
+- Social logos dissapeared                      [ ]
+    - Relative file locations differ            [ ]
+Refreshing page on the individual product page means the logos are lost as the path is different.
+
+- New cart component above brand ?              [ ]
+
+- Redesign individual product page              [ ]
+    - Grey background images                    [ ]
+    - Start at top of page on page load         [ ]
+    - Make page responsive                      [ ]
+    - Black backdrop for image display          [ ]
+
+- Make border bottoms darker on mobile          [ ]
+
+- Change carousel to standlone image on mobile  [ ]
+
+- Remove sample photo white backgrounds         [x]
+    - Showcase image backgrounds                [x]
+
+- Responsive Website                            [x]
+    - Read basics of web responsiveness         [x]
+    - Implement the web design                  [x]
+        - Improve homepage                      [x]
+            - Sketch Website                    [x]
+
+- Update branding to Vertex                     [ ]
+    - Update copyright                          [x]
+    - Create Vertex logo                        [ ]
+        - Install Photoshop                     [x]
+        - Create logo files                     [ ]
+
 - Make an about page                            [x]
     - What goes in the about us page?
     - Who we are?
@@ -6,22 +37,3 @@
 - Fill in about page with real answers          [ ]
 - Make products page                            [ ]
 - Make product page less tacky                  [ ]
-
-- Update branding to Vertex                     [ ]
-    - Update copyright                          [x]
-    - Create Vertex logo                        [ ]
-        - Install Photoshop                     [x]
-        - Create logo files                     [ ]
-
-- Responsive Website                            [ ]
-    - Read basics of web responsiveness         [x]
-    - Implement the web design                  [ ]
-        - Improve homepage                      [ ]
-            - Sketch Website                    [ ]
-
-- Remove sample photo backgrounds               [ ]
-    - Photoshop to white backgrounds            [ ]
-
-- Change carousel to standlone image on mobile  [ ]
-
-- Make border bottoms darker on mobile          [ ]

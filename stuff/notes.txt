@@ -6,7 +6,8 @@ Carousel images: 1920x600
 2400x2400
 Clicking on carousel throws error, doesn't automatically cycle because children of the carousel have not been initialized yet
 
-Background colour: #F1EDEC
+Colour guide:
+Div background colour: #F1EDEC
 
 External Research:
 
@@ -18,6 +19,8 @@ xxx this isn't related directly to your problem, but it will massively affect yo
 On mobile (where most of your customers are I imagine) it took over 30 seconds to get to a useable point. Google found that over 50% of users leave a site if it takes more than 3 seconds and
 the BBC found for every added second it lost 10% of users.
 I'm surprised you are getting any sales at all tbh. It is crazy heavy. Take a look at this for more info: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fproperfitness.co%2F
+
+Fix copyright, help and newsletter to bottom of screen?
 
 /* Mobile */
 .some-class {
