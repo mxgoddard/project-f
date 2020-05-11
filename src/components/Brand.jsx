@@ -7,7 +7,7 @@ class Brand extends Component {
 
             <div className='BrandDiv'>
                 <a href="/">
-                    <img src='/assets/bastion_inverted.png' className='brandImage' alt=''/>
+                    <img src='/assets/logo_vertex_inverted.png' className='brandImage' alt=''/>
                 </a>
             </div>
         )
