@@ -106,7 +106,7 @@
     cursor: not-allowed;
 }
 
-.TempFiller {
+.ImageWrapper {
     background-color: #F3EDEC;
 }
 
@@ -119,6 +119,9 @@
 @media (min-width:641px)  {
     .CategoryParent span {
         font-size: 20px;
+    }
+    .DisplayImage {
+        width: 50%;
     }
     .CategoryParent {
         height: 28px;
@@ -187,15 +190,39 @@
 @media (min-width:1281px) {
     .ProductDiv {
         margin-top: 2%;
+        clear:both;
+        float: none;
     }
     .AddToCartDiv {
         position: static;
         bottom: auto;
+        width: 50%;
+        margin-left: 25%;
+        border-radius: 4px;
+        background-color: #1c1c1c;
+    }
+    .DisplayImages {
+        width: 100%;
     }
     .DisplayImage {
-        width: 50%;
-        height: auto;
+        width: 100%;
+    }
+    .abc {
+        margin-bottom: 2%;
+        height: 100%;
+        clear:both;
+        float: none;
+        overflow: hidden;
+    }
+    .ImageWrapper {
+        width: 35%;
+        margin-left: 5%;
+        background-color: white;
         float: left;
+    }
+    .RestDiv {
+        width: 60%;
+        margin-left: 40%;
     }
     .CategoryParent span {
         font-size: 20px;
@@ -204,7 +231,9 @@
         height: 24px;
     }
     .NameOfProduct {
-        font-size: 34px;
+        font-size: 32px;
+        margin-bottom: 2%;
+        margin-top: 1%;
     }
     .AddToCartDiv {
         font-size: 22px;
@@ -221,7 +250,7 @@
     }
     .ProductInfo {
         font-size: 20px;
-        margin: 5% 5% 8% 5%;
+        margin: 3% 5% 3% 5%;
     }
     .ProductInfo li {
         margin-left: 0;

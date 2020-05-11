@@ -15,9 +15,8 @@ Refreshing page on the individual product page means the logos are lost as the p
         - Orange back                           [x]
         - Orange palm                           [ ]
     - Start at top of page on page load         [x]
-    - Make page responsive                      [ ]
+    - Make page responsive                      [x]
     - Black backdrop for image display          [x]
-    - Reusable Select Size Component            [ ]
 
 - Make border bottoms darker on mobile          [ ]
 

@@ -26,40 +26,46 @@ class ProductDisplay extends Component {
                     <div className='NameOfProduct'>
                         <span>'The Big Red'</span>
                     </div>
-                    <div className='TempFiller'>
-                        <div className='DisplayImages'>
-                            <img src={ this.state.imageLink } className='DisplayImage' alt='' />
-                            <img src='../assets/category_glove_red4-front.png' className='DisplayImage' alt='' />
+                    <div className='abc'>
+                        <div className='ImageWrapper'>
+                            <div className='DisplayImages'>
+                                <img src={ this.state.imageLink } className='DisplayImage' alt='' />
+                                <img src='../assets/category_glove_red4-front.png' className='DisplayImage' alt='' />
+                            </div>
                         </div>
-                        <div className='AddToCartDiv'>
-                            <p>Add to Cart</p>
-                        </div>
-                    </div>
 
-                    <div className='SelectSizeDiv'>
-                        <p>Select Size</p>
-                        <div className='SelectSizeButtons'>
-                            <button type="button" value='4'>4</button>
-                            <button type="button">5</button>
-                            <button type="button">6</button>
-                            <button type="button">7</button>
-                            <button type="button">8</button>
-                            <button type="button">9</button>
-                            <button type="button">10</button>
-                            <button type="button" className='DisabledSizeButton'>11</button>
-                        </div>
-                    </div>
+                        <div className='RestDiv'>
+                            <div className='AddToCartDiv'>
+                                <p>Add to Cart</p>
+                            </div>
 
-                    <div className='ProductInfo'>
-                        <p>{ this.state.description }</p>
-                        <p>Features</p>
-                        <ul>
-                            <li>Roll finger glove cut</li>
-                            <li>Contact latex</li>
-                            <li>Thumb wrap</li>
-                            <li>Punching zone</li>
-                            <li>Neoprene glove body</li>
-                        </ul>
+                            <div className='SelectSizeDiv'>
+                                <p>Select Size</p>
+                                <div className='SelectSizeButtons'>
+                                    <button type="button" value='4'>4</button>
+                                    <button type="button">5</button>
+                                    <button type="button">6</button>
+                                    <button type="button">7</button>
+                                    <button type="button">8</button>
+                                    <button type="button">9</button>
+                                    <button type="button">10</button>
+                                    <button type="button" className='DisabledSizeButton'>11</button>
+                                </div>
+                            </div>
+
+                            <div className='ProductInfo'>
+                                <p>{ this.state.description }</p>
+                                <p>Features</p>
+                                <ul>
+                                    <li>Roll finger glove cut</li>
+                                    <li>Contact latex</li>
+                                    <li>Thumb wrap</li>
+                                    <li>Punching zone</li>
+                                    <li>Neoprene glove body</li>
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
