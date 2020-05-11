@@ -30,7 +30,7 @@ class ProductDisplay extends Component {
                         <div className='ImageWrapper'>
                             <div className='DisplayImages'>
                                 <img src={ this.state.imageLink } className='DisplayImage' alt='' />
-                                <img src='../assets/category_glove_red4-front.png' className='DisplayImage' alt='' />
+                                <img src='../assets/img_glove_red_white_palm.png' className='DisplayImage' alt='' />
                             </div>
                         </div>
 
@@ -93,7 +93,7 @@ class ProductDisplay extends Component {
                 price: '10.00',
                 description: 'This is the red glove. Unknown origins however guranteed to stop any ball you need to.',
                 productInformation: 'Flat palm cut,Contact Latex - Best on the market,Thumb Wrap,Full elastic wrist strap,Punching zone,Neoprene glove body',
-                imageLink: '../assets/img_glove_red_wwhite_back.png'
+                imageLink: '../assets/img_glove_red_white_back.png'
             },
             {
                 id: 3,
