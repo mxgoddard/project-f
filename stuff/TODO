@@ -6,9 +6,18 @@ Refreshing page on the individual product page means the logos are lost as the p
 
 - Redesign individual product page              [ ]
     - Grey background images                    [ ]
-    - Start at top of page on page load         [ ]
+        - Red back                              [x]
+        - Red palm                              [x]
+        - Blood Orange back                     [x]
+        - Blood Orange palm                     [ ]
+        - Blue back                             [x]
+        - Blue palm                             [ ]
+        - Orange back                           [x]
+        - Orange palm                           [ ]
+    - Start at top of page on page load         [x]
     - Make page responsive                      [ ]
-    - Black backdrop for image display          [ ]
+    - Black backdrop for image display          [x]
+    - Reusable Select Size Component            [ ]
 
 - Make border bottoms darker on mobile          [ ]
 

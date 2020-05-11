@@ -10,11 +10,11 @@ class ProductDisplay extends Component {
         price: '',
         description: '',
         productInformation: '',
-        imageLink: ''
+        imageLink: '',
+        size: -1
     };
 
     render() {
-// <img src={ this.state.imageLink } className='DisplayImage' alt='' />
         if (this.state.loading) return <h1>Loading...</h1>
         return (
             <div className='ProductDisplayOuterWrapper'>
@@ -33,9 +33,24 @@ class ProductDisplay extends Component {
                             <p>Add to Cart</p>
                         </div>
                     </div>
+
+                    <div className='SelectSizeDiv'>
+                        <p>Select Size</p>
+                        <div className='SelectSizeButtons'>
+                            <button type="button" value='4'>4</button>
+                            <button type="button">5</button>
+                            <button type="button">6</button>
+                            <button type="button">7</button>
+                            <button type="button">8</button>
+                            <button type="button">9</button>
+                            <button type="button">10</button>
+                            <button type="button" className='DisabledSizeButton'>11</button>
+                        </div>
+                    </div>
+
                     <div className='ProductInfo'>
                         <p>{ this.state.description }</p>
-                        <p>Glove features:</p>
+                        <p>Features</p>
                         <ul>
                             <li>Roll finger glove cut</li>
                             <li>Contact latex</li>
@@ -50,6 +65,9 @@ class ProductDisplay extends Component {
     }
 
     componentDidMount() {
+        // Scroll to top of the page
+        window.scrollTo(0, 0);
+
         // Stubbed data until actual API request is created
         let products =
         [
@@ -59,7 +77,7 @@ class ProductDisplay extends Component {
                 price: '5.00',
                 description: 'This is the blue glove. Unknown origins however guranteed to stop any ball you need to.',
                 productInformation: 'Flat palm cut,Contact Latex - Best on the market,Thumb Wrap,Full elastic wrist strap,Punching zone,Neoprene glove body',
-                imageLink: '../assets/category_glove_blue3.JPG.png'
+                imageLink: '../assets/img_glove_blue_black_back.png'
             },
             {
                 id: 2,
@@ -67,7 +85,7 @@ class ProductDisplay extends Component {
                 price: '10.00',
                 description: 'This is the red glove. Unknown origins however guranteed to stop any ball you need to.',
                 productInformation: 'Flat palm cut,Contact Latex - Best on the market,Thumb Wrap,Full elastic wrist strap,Punching zone,Neoprene glove body',
-                imageLink: '../assets/category_glove_red4.png'
+                imageLink: '../assets/img_glove_red_wwhite_back.png'
             },
             {
                 id: 3,
@@ -75,7 +93,7 @@ class ProductDisplay extends Component {
                 price: '15.00',
                 description: 'This might be the orange glove. Unknown origins however guranteed to stop any ball you need to.',
                 productInformation: 'Flat palm cut,Contact Latex - Best on the market,Thumb Wrap,Full elastic wrist strap,Punching zone,Neoprene glove body',
-                imageLink: '../assets/category_glove_blood_orange3.JPG.png'
+                imageLink: '../assets/img_glove_blood_orange_back.png'
             },
             {
                 id: 4,
@@ -83,7 +101,7 @@ class ProductDisplay extends Component {
                 price: '20.00',
                 description: 'This is definitely the orange glove. Unknown origins however guranteed to stop any ball you need to.',
                 productInformation: 'Flat palm cut,Contact Latex - Best on the market,Thumb Wrap,Full elastic wrist strap,Punching zone,Neoprene glove body',
-                imageLink: '../assets/category_glove_orange3.JPG.png'
+                imageLink: '../assets/img_glove_orange_black_back.png'
             }
         ];
 
@@ -98,8 +116,6 @@ class ProductDisplay extends Component {
             productInformation: products[this.props.id-1].productInformation,
             imageLink: products[this.props.id-1].imageLink
         });
-
-
     }
 }
 

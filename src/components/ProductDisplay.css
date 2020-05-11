@@ -42,12 +42,12 @@
 
 .ProductInfo {
     box-sizing: border-box;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: #454545;
 
     height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5% 5% 8% 5%;
     display: inline-block;
 
     vertical-align: top;
@@ -79,12 +79,44 @@
     text-decoration: underline;
 }
 
+.SelectSizeDiv {
+    text-align: center;
+}
+
+.SelectSizeButtons {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.SelectSizeButtons button {
+    background-color: white;
+    color: black;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.DisabledSizeButton {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 .TempFiller {
     background-color: #F3EDEC;
 }
 
 .ProductInfo li {
-    margin-left: -5%;;
+    margin-left: -5%;
+    font-size: 15px;
+}
+
+.ProductInfo p {
+    /* padding-bottom: 8%; */
 }
 
 /* Tablet */
