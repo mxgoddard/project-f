@@ -19,8 +19,10 @@ class ProductDisplay extends Component {
         return (
             <div className='ProductDisplayOuterWrapper'>
                 <div className='ProductDiv'>
-                    <span className='Category'>Vertex Goalkeeper Gloves</span>
-                    <span className='Category2'>£17.95</span>
+                    <div className='CategoryParent'>
+                        <span className='Category'>Vertex Goalkeeper Gloves</span>
+                        <span className='Category2'>£17.95</span>
+                    </div>
                     <div className='NameOfProduct'>
                         <span>'The Big Red'</span>
                     </div>

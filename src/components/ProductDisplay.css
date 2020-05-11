@@ -45,14 +45,15 @@
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     color: #454545;
-
     height: auto;
     margin: 5% 5% 8% 5%;
     display: inline-block;
-
     vertical-align: top;
-
     overflow: hidden;
+}
+
+.CategoryParent {
+    height: 17px;
 }
 
 .NameOfProduct {
@@ -65,7 +66,6 @@
 
 .AddToCartDiv {
     display: inline-block;
-    /* font-family: 'Roboto Mono', monospace; */
     font-family: "Helvetica Neue";
     padding: 0;
     margin: 0;
@@ -81,12 +81,12 @@
 
 .SelectSizeDiv {
     text-align: center;
+    padding-top: 5%;
 }
 
 .SelectSizeButtons {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -115,21 +115,116 @@
     font-size: 15px;
 }
 
-.ProductInfo p {
-    /* padding-bottom: 8%; */
-}
-
 /* Tablet */
 @media (min-width:641px)  {
-
+    .CategoryParent span {
+        font-size: 20px;
+    }
+    .CategoryParent {
+        height: 28px;
+    }
+    .NameOfProduct {
+        font-size: 28px;
+    }
+    .AddToCartDiv {
+        font-size: 22px;
+    }
+    .SelectSizeDiv {
+        font-size: 22px;
+    }
+    .SelectSizeButtons button {
+        border: 2px solid #dbdbdb;
+        width: 12%;
+        padding: 12px;
+        margin: 10px;
+        font-size: 22px;
+    }
+    .ProductInfo {
+        font-size: 20px;
+        margin: 5% 5% 8% 5%;
+    }
+    .ProductInfo li {
+        margin-left: 0;
+        font-size: 17px;
+    }
 }
 
 /* Desktops */
 @media (min-width:1024px) {
-
+    .CategoryParent span {
+        font-size: 26px;
+    }
+    .CategoryParent {
+        height: 32px;
+    }
+    .NameOfProduct {
+        font-size: 44px;
+    }
+    .AddToCartDiv {
+        font-size: 30px;
+    }
+    .SelectSizeDiv {
+        font-size: 32px;
+    }
+    .SelectSizeButtons button {
+        border: 2px solid #dbdbdb;
+        width: 10%;
+        padding: 12px;
+        margin: 10px;
+        font-size: 28px;
+    }
+    .ProductInfo {
+        font-size: 30px;
+        margin: 5% 5% 8% 5%;
+    }
+    .ProductInfo li {
+        margin-left: 0;
+        font-size: 25px;
+    }
 }
 
 /* Large Desktops */
 @media (min-width:1281px) {
-
+    .ProductDiv {
+        margin-top: 2%;
+    }
+    .AddToCartDiv {
+        position: static;
+        bottom: auto;
+    }
+    .DisplayImage {
+        width: 50%;
+        height: auto;
+        float: left;
+    }
+    .CategoryParent span {
+        font-size: 20px;
+    }
+    .CategoryParent {
+        height: 24px;
+    }
+    .NameOfProduct {
+        font-size: 34px;
+    }
+    .AddToCartDiv {
+        font-size: 22px;
+    }
+    .SelectSizeDiv {
+        font-size: 22px;
+    }
+    .SelectSizeButtons button {
+        border: 1px solid #dbdbdb;
+        width: 10%;
+        padding: 10px;
+        margin: 10px;
+        font-size: 22px;
+    }
+    .ProductInfo {
+        font-size: 20px;
+        margin: 5% 5% 8% 5%;
+    }
+    .ProductInfo li {
+        margin-left: 0;
+        font-size: 17px;
+    }
 }
